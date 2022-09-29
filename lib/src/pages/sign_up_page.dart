@@ -41,6 +41,9 @@ Widget _username(BuildContext context){
     decoration: BoxDecoration(
       color: bgInput,
       borderRadius: BorderRadius.circular(40.0)),
-    child: Text('Hola Luchito'),
+    child: TextField(
+      keyboardType: TextInputType.text,
+      decoration: InputDecoration,
+    ),
   );
 }
