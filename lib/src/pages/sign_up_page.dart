@@ -71,7 +71,7 @@ Widget _usernameInput(BuildContext context){
 
 Widget _emailInput(BuildContext context){
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
+    margin: EdgeInsets.only(top: 20.0),
     padding: EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
       color: bgInput,
@@ -90,7 +90,7 @@ Widget _emailInput(BuildContext context){
 
 Widget _phoneInput(BuildContext context){
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
+    margin: EdgeInsets.only(top: 20.0),
     padding: EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
       color: bgInput,
@@ -98,7 +98,7 @@ Widget _phoneInput(BuildContext context){
     child: TextField(
       keyboardType: TextInputType.phone,
       decoration: InputDecoration(
-        hintText: 'Tele´fono',
+        hintText: 'Teléfono',
         border: OutlineInputBorder(
           borderSide: BorderSide.none,
         ),
@@ -109,7 +109,7 @@ Widget _phoneInput(BuildContext context){
 
 Widget _dateOfBirthInput(BuildContext context){
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
+    margin: EdgeInsets.only(top: 20.0),
     padding: EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
       color: bgInput,
@@ -128,7 +128,7 @@ Widget _dateOfBirthInput(BuildContext context){
 
 Widget _passwordInput(BuildContext context){
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
+    margin: EdgeInsets.only(top: 20.0),
     padding: EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
       color: bgInput,
@@ -149,7 +149,7 @@ Widget _singUpButton(BuildContext context){
   return Container(
     width: 370.0,
     height: 45.0,
-    margin: EdgeInsets.only(top: 30.0),
+    margin: EdgeInsets.only(top: 40.0),
     child: RaisedButton(
       onPressed: () {
 
