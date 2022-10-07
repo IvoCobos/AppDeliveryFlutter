@@ -156,7 +156,7 @@ Widget _buttonLogin( BuildContext context) {
     margin: EdgeInsets.only(top: 30.0),
     child: RaisedButton(
       onPressed:  () {
-        Navigator.pushNamed(context, '');
+        Navigator.pushNamed(context, 'tabs');
       },
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20.0)
