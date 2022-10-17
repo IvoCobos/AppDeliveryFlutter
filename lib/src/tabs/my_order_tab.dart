@@ -11,7 +11,7 @@ class _MyOrderTabState extends State<MyOrderTab> {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: Text('Favorito'),
+        child: Text('Mis ordenes'),
       ),
     );
   }
