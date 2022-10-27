@@ -1,7 +1,7 @@
 import 'dart:html';
 import 'dart:js';
 
-import 'package:delivery_app/src/widgets/back_button.dart';
+import 'package:delivery_app/src/features/presentation/widgets/back_button.dart';
 import 'package:flutter/material.dart';
 
 class ForgotPassword extends StatelessWidget {
