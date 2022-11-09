@@ -27,10 +27,13 @@ Widget _topBar(BuildContext context) {
         ),
         child: Row(children: [
           Icon(Icons.search, size: 20.0, color: grey,),
-          Text('Search', style: TextStyle(
-            color: grey,
-            fontSize: 17.0
-          ))
+          Container(
+            margin: EdgeInsets.only(left: 5),
+            child: Text('Search', style: TextStyle(
+              color: grey,
+              fontSize: 17.0
+            )),
+          )
           ]),
       ),
       Container(
