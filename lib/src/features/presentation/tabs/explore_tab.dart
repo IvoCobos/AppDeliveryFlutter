@@ -37,15 +37,15 @@ Widget _topBar(BuildContext context) {
           ]),
       ),
       Container(
-        width: 40.0,
-        height: 40.0,
+        width: 45.0,
+        height: 45.0,
         margin: EdgeInsets.only(left: 10),
         decoration: BoxDecoration(
           color: Color.fromRGBO(209, 209, 214, 1.0),
           borderRadius: BorderRadius.circular(30)
         ),
         child: IconButton(
-          icon: Icon(Icons.filter_list, size: 25, color: Colors.white),
+          icon: Icon(Icons.filter_list, size: 30, color: Colors.white),
           onPressed: () {},
           ),
       )
