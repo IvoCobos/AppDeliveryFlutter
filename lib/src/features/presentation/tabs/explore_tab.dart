@@ -18,7 +18,7 @@ Widget _topBar(BuildContext context) {
   return Row(
     children: [
       Container(
-        width: 310,
+        width: 320,
         padding: EdgeInsets.all(10.0),
         margin: EdgeInsets.only(left: 16),
         decoration: BoxDecoration(
@@ -37,7 +37,17 @@ Widget _topBar(BuildContext context) {
           ]),
       ),
       Container(
-        child: Text('Hola'),
+        width: 40.0,
+        height: 40.0,
+        margin: EdgeInsets.only(left: 10),
+        decoration: BoxDecoration(
+          color: Color.fromRGBO(209, 209, 214, 1.0),
+          borderRadius: BorderRadius.circular(30)
+        ),
+        child: IconButton(
+          icon: Icon(Icons.filter_list, size: 25, color: Colors.white),
+          onPressed: () {},
+          ),
       )
     ],
   );
